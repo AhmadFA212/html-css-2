@@ -1,0 +1,73 @@
+/* Centralize CSS Management with External Stylesheets */
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Enhance visual appeal for user engagement */
+body {
+    background-color: #f4f4f4;
+    background-image: url('background.jpg');
+    /* Replace with the actual image file */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Optimize for all devices for universal access */
+/* Desktop view */
+@media only screen and (min-width: 1024px) {
+
+    /* Add desktop styles here */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Tablet view */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+
+    /* Add tablet styles here */
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Mobile view */
+@media only screen and (max-width: 767px) {
+
+    /* Add mobile styles here */
+    body {
+        font-size: 12px;
+    }
+}
+
+/* Target specific elements for precise styling */
+/* Class selector */
+.nav-icons {
+    background-color: #333;
+    color: #fff;
+}
+
+/* Descendant selector */
+.home-section h1 {
+    color: #008080;
+}
+
+/* ID selector */
+#contact {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+/* Structure layout effectively for readability */
+.home-section {
+    text-align: center;
+}
+
+/* Enhance typography for better readability */
+/* Include at least 1 external font from a recognized source (Google Fonts) */
+body {
+    font-family: 'Roboto', sans-serif;
+    /* Replace with the desired font from Google Fonts */
+}
